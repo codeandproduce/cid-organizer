@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Avenir Next', sans-serif;
+	transition: all 250ms ease-in-out;
+}
+body{
+	margin:0;
+	padding:0;
+}
+.side-margins{
+	position: relative;
+	width:9%;
+	height:100%;
+}
+.margin-left{
+	background-color: #4f95ff;
+	opacity:0.8;
+	float:left;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius:  20px;
+}
+.margin-right{
+	background-color: #4f95ff;
+	opacity:0.8;
+	float:right;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius:  20px;
+}
+.middle-contain{
+	margin:0;
+	display: inline-block;
+	width:82%;
+	height:100%;
+	padding:50px;
+}
+
+
+/* TAB */
+.button-right-tab{
+	width:50px;
+	height:50px;
+	display:block;
+	margin:auto;
+	border:1px solid rgba(100,149,255,0.8);
+	border-radius:10px;
+}
+
+/* Middle contain body */
+.actual-middle-contain{
+	width:100%;
+	height:100%;
+	border-radius:20px;
+	padding:20px;
+}
+
+/* Schedule app stuff */
+.app-title{
+	font-size:35px;
+	font-weight:100;
+	width:100%;
+	text-align: center;
+}
+
+.contain-schedule-table{
+	display:block;
+	margin:auto;
+	margin-top:30px;
+	width:850px;
+	height:400px;
+}
+.schedule-table{
+	width:100%;
+	height:100%;
+}
+th{
+	border:1px solid white;
+	background-color:rgba(100,149,255,0.8);
+}
+td{
+	width:10%;
+	border:2px solid rgba(100,149,255,0.5);
+	cursor: pointer;
+}
+td:hover{
+	background-color:rgba(100,149,255,0.5);
+	border:1px solid white;
+}
+
+
+
+.credits{
+	padding-top:10px;
+	color:rgba(100,149,255,0.9);
+	width:100%;
+	text-align: center;
+	font-size:13px;
+}
+.credits > a{
+	color:rgba(100,149,255,0.9);
+	text-decoration: none;
+}
+.credits > a:hover{
+	text-decoration: underline;
+}
